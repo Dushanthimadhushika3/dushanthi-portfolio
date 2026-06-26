@@ -1,21 +1,28 @@
 # Dushanthi Academic Portfolio
 
-This is a clean, minimal academic portfolio website inspired by simple researcher websites.
+This repository contains my personal academic portfolio website, showcasing my research, publications, projects, professional experience, and technical writing.
 
-## Preview locally
-Open `index.html` in your browser.
+The website is built using HTML, CSS, and JavaScript, with a clean and responsive design for desktop and mobile devices.
 
-## Edit content
-Edit the `.html` files directly. Replace placeholder links with your real Google Scholar, ORCID, LinkedIn, GitHub, email, and CV PDF.
+## Run Locally
 
-## Host free on GitHub Pages
-1. Create a GitHub repository named `yourusername.github.io`.
-2. Upload all files from this folder.
-3. Go to Settings > Pages.
-4. Select branch `main` and root folder.
-5. Your site will appear at `https://yourusername.github.io`.
+Serve the project using a local web server (e.g., VS Code Live Server or Python):
 
-## Host free on Vercel
-1. Push this folder to GitHub.
-2. Import the repository into Vercel.
-3. Deploy.
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```
+http://localhost:8000
+```
+
+## Deployment
+
+The website can be deployed for free using **GitHub Pages** or **Vercel**.
+
+## License
+
+© Dushanthi Madhushika Manamalage. All rights reserved.
+
